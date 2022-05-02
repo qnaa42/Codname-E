@@ -1,0 +1,3 @@
+rep "EvE Online Group Project (1)@matek240@cloud"
+  path "/"
+    smartbranch "/main"

@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8441346254083285561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8441346254083285563}
+  - component: {fileID: 8441346254083285560}
+  - component: {fileID: 8441346254083285562}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8441346254083285563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8441346254083285561}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.397146, y: 1.9397526, z: 20.929213}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8441346254083285560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8441346254083285561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9599ade152523ec4cab0c096ffa76371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentGameState: 1
+  targetGameState: 0
+  lastGameState: 0
+  paused: 0
+  OnLoading:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLoaded:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGameStarting:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGameStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLevelStarting:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLevelStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGamePlaying:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLevelEnding:
+    m_PersistentCalls:
+      m_Calls: []
+  OnlevelEnded:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGameEnded:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGamePausing:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGameUnPaused:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRestarting:
+    m_PersistentCalls:
+      m_Calls: []
+  cameraReferencePoint: {fileID: 0}
+  player: {fileID: 0}
+  userManager: {fileID: 0}
+  baseUserManager: {fileID: 0}
+  uiManager: {fileID: 8441346254083285562}
+  inventory: {fileID: 0}
+  securitySystemManager: {fileID: 0}
+  pickupScript: {fileID: 0}
+--- !u!114 &8441346254083285562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8441346254083285561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5601d1788d575b4582330c32308730a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idText: {fileID: 0}
+  nameText: {fileID: 0}
+  scoreText: {fileID: 0}
+  healthText: {fileID: 0}
+  hungerText: {fileID: 0}
+  stateText: {fileID: 0}
+  popUpMenu: {fileID: 0}
+  inventoryInfo: {fileID: 0}
+  popUpText: {fileID: 0}
+  popUpMenuText: {fileID: 0}
+  inventory: {fileID: 0}
+  inventoryOn: 0
